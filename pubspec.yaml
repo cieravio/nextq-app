@@ -1,0 +1,50 @@
+name: nextq_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2
+  shared_preferences: ^2.5.3
+  firebase_auth: 6.1.1
+  firebase_core: 4.2.0
+  firebase_ml_model_downloader: ^0.4.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # todo-01-model-01: download the model from this link below.
+  # https://www.kaggle.com/models/tensorflow/mobilenet-v1/tfLite/1-0-224-quantized-metadata
+  # todo-01-model-02: put the model inside asset folder, rename it into "mobilenettflite", extract the model, and get the label
+  # todo-01-model-03: register the directory path into pubspec.yaml
+  fonts:
+    - family: IBMPlexSansCondensed
+      fonts:
+        - asset: assets/fonts/IBMPlexSansCondensed-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/IBMPlexSansCondensed-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/IBMPlexSansCondensed-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/IBMPlexSansCondensed-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/IBMPlexSansCondensed-Light.ttf
+          weight: 300
+        - asset: assets/fonts/IBMPlexSansCondensed-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/IBMPlexSansCondensed-Thin.ttf
+          weight: 100
+
+  assets:
+    - assets/fonts/

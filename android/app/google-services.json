@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "107167276221",
+    "project_id": "dicoding-chatting-9678e",
+    "storage_bucket": "dicoding-chatting-9678e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107167276221:android:6326ce477f4ca62c13ebd4",
+        "android_client_info": {
+          "package_name": "com.dicoding.tflite_vision_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf8fTRR3UnIxaVZh5Snm05LWyrgYwOPmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107167276221:android:4d6e2e821a2737c013ebd4",
+        "android_client_info": {
+          "package_name": "com.example.food_recognizer_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf8fTRR3UnIxaVZh5Snm05LWyrgYwOPmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107167276221:android:77b3704985d33a9613ebd4",
+        "android_client_info": {
+          "package_name": "com.nextq_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf8fTRR3UnIxaVZh5Snm05LWyrgYwOPmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
